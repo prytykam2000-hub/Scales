@@ -1,0 +1,5 @@
+{
+  "name": "ICU Severity Score Pro UA",
+  "description": "Професійний медичний калькулятор для шкал TISS-28, SOFA та qSOFA (SOFA 2), розроблений для лікарів інтенсивної терапії з ШІ-інтерпретацією результатів.",
+  "requestFramePermissions": []
+}
