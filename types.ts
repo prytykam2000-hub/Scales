@@ -18,7 +18,10 @@ export interface SofaInputs {
 
 export interface Sofa2Inputs extends SofaInputs {}
 
-// Added missing QSofaInputs interface to fix import error in QSofaCalculator.tsx
+/**
+ * Interface for qSOFA (Quick SOFA) inputs
+ * Used for screening sepsis outside of ICU settings
+ */
 export interface QSofaInputs {
   respiratoryRate: boolean;
   alteredMentality: boolean;
